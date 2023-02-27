@@ -1,0 +1,9 @@
+const String appStoreLink = '';
+const String playStoreLink = '';
+const String bmcLink = 'buymeacoffee.com/arashsheyda';
+const String githubLink = 'github.com/persiansda';
+const String instagramLink = 'instagram.com/persiansda';
+const String youtubeLink = 'youtube.com/persiansda';
+const String twitterLink = '';
+const String telegramLink = '';
+const String linkedInLink = '';
