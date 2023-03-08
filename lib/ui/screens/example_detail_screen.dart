@@ -14,9 +14,7 @@ class ExmDetailScreen extends StatelessWidget {
         backgroundColor: colorPrimary,
         title: Text(AppLocalizations.of(context)!.example),
       ),
-      body: Scaffold(
-        body: EmptyWidget(text: AppLocalizations.of(context)!.example),
-      ),
+      body:  EmptyWidget(text: AppLocalizations.of(context)!.example),
     );
   }
 }

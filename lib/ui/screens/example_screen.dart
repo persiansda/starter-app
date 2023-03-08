@@ -12,11 +12,9 @@ class ExmScreen extends StatelessWidget {
         backgroundColor: colorPrimary,
         title: Text(AppLocalizations.of(context)!.example),
       ),
-      body: Scaffold(
-        body: Center(
+      body: Center(
           child: Text(AppLocalizations.of(context)!.example),
         ),
-      ),
     );
   }
 }

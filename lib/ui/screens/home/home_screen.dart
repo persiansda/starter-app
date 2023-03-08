@@ -13,8 +13,7 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: colorPrimary,
         title: Text(AppLocalizations.of(context)!.appName),
       ),
-      body: Scaffold(
-        body: Column(
+      body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Row(
@@ -41,7 +40,6 @@ class HomeScreen extends StatelessWidget {
             ),
           ],
         ),
-      ),
     );
   }
 }
