@@ -10,7 +10,12 @@ class Storage {
     double? width,
     BoxFit fit = BoxFit.contain,
   }) {
-    return Image.asset('assets/images/$path');
+    return Image.asset(
+      'assets/images/$path',
+      height: height,
+      width: width,
+      fit: fit,
+    );
   }
 
   static svg(
